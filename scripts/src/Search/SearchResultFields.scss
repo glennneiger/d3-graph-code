@@ -1,0 +1,93 @@
+.search-result-fields-container {
+    margin-left: 28px;
+    margin-top: 18px;
+    margin-bottom: 32px;
+
+    div {
+        display: flex;
+        width: calc(100% + 20px);
+        >.dotted-border {
+            width: 10px;
+            height: 32px;
+            border-left: dashed 1px #5bd6e5;
+            border-bottom: dashed 1px #5bd6e5;
+
+            &.indented {
+                margin-left: 30px;
+
+                &.five-ten {
+                    margin-top: 18px;
+                }
+            }
+
+            &.pma-dotted {
+                height: 40px;
+                position: relative;
+            }
+        }
+    
+        >.field-label {
+            display: flex;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #ffffff;
+            position: relative;
+            cursor: pointer;
+    
+            &.selected {
+                border-radius: 6px;
+                background-color: #ffffff;
+                height: 36px;
+                color: #313e59;
+                padding: 9px;
+                position: relative;
+                right: 15px;
+            }
+    
+            &.prod-code {
+                left: 5px;
+                top: 21px;
+    
+                &.selected {
+                    margin-bottom: 5px;
+                }
+            }
+            &.five-ten {
+                top: 36px;
+                left: 5px;
+                &.selected {
+                    margin-bottom: 20px;
+                }
+            }
+    
+            &.pma-app {
+                top: 31px;
+                left: 5px;
+
+            }
+
+            >.result-count {
+                height: 19px;
+                border-radius: 5px;
+                font-family: Roboto;
+                font-size: 12px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #ffffff;
+                padding: 3px;
+                position: absolute;
+                right: 40px;
+            }
+        }
+    }
+    
+}

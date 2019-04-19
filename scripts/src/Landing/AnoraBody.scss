@@ -1,0 +1,45 @@
+@import "./_variables.scss";
+
+.anora-body {
+    background-color: #f4f5f6;
+    padding: 50px;
+    // height: 1000px;
+    min-height: 100%;
+    height: 52vh;
+    p {
+        display: block;
+        width: 509px;
+        height: 16px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #939da7;
+    }
+}
+.curated-button {
+    margin: 15px;
+    width: 256px;
+    height: 43px;
+    border-radius: 24.5px;
+    background-color: #e9ebed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text {
+        width: 196px;
+        height: 16px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #939da7;
+    }
+}

@@ -1,0 +1,40 @@
+.search-box-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; 
+  .search-box-info-item{
+    margin-right: 30px;
+    &-key {
+      font-family: Roboto;
+      font-size: 10px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #939da7;
+    }
+    &-value {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #313e59;
+    }
+    .grey-text {
+      opacity: 0.2;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #313e59;
+    }
+  }
+}

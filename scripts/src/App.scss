@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto:300,400,700');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+
+$main-color: rgb(1, 171, 221);
+$footerHeight: 50px;
+
+.App {
+  padding: 0;
+  position: relative;
+}
+
+.App *:not(i) {
+  font-family: Roboto, sans-serif;
+}
+
+html {
+  height: 100vh;
+}
+
+// where is #main
+body, #main, .App {
+  min-height: 100vh;
+}
+
+// where is h5
+h5, a {
+  color: $main-color;
+}
+a:hover {
+  color: $main-color;
+}
+
+nav {
+  .btn {
+    font-size: 16px;
+    color: $main-color;
+    :hover {
+      text-transform: none;
+    }
+    .active {
+      border: solid 1px $main-color;
+    }
+  }
+}
+
+.btn.btn-primary {
+  background: none;
+  color: $main-color;
+}
+
+.navbar-text {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar-bottom {
+  height: $footerHeight;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  width: 100vw;
+  max-width:100%;
+  padding: 0px;
+  margin: 0;
+}
+
+.nova_description_table td {
+  text-align: right;
+}
+.nova_description_table th {
+  min-width: 150px;
+}

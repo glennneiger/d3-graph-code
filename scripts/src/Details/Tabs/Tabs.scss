@@ -1,0 +1,18 @@
+$main-color: rgb(1, 171, 221);
+$main-color: rgb(1, 171, 221);
+
+.nav-tabs {
+  display: flex;
+  width: 100%;
+  margin-top: 16px;
+  border-bottom: 1px solid #ccc;
+  .nav-item {
+    cursor: pointer;
+  }
+}
+
+.tab-content {
+  padding: 20px;
+  border-left: 1px solid #dee2e6;
+  min-height: 80vh;
+}

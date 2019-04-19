@@ -1,0 +1,46 @@
+.nova-result-container {
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  margin: auto;
+
+  div[class*='col-'] {
+    padding: 0;
+  }
+
+  .search-results {
+    width: 100%;
+  }
+
+}
+
+.nova-search-sidebar-container {
+  background-color: #313e59;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+.nova-logged-out-blur {
+  height: 100%;
+  position: absolute;
+  background: url("../img/blur.png");
+  top: 0;
+  left: -30px;
+  right: -30px;
+  cursor: pointer;
+  .nova-logged-out-blur-text {
+    text-align: center;
+    @media (min-width: 576px){
+      position: fixed;
+      top: 50%;
+      width: 60%;
+    }
+    @media (max-width: 575px){
+      position: absolute;
+      top: 250px;
+      left: 10px;
+      right: 10px;
+    }
+    font-size: 1.5em;
+  }
+}

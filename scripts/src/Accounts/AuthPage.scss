@@ -1,0 +1,284 @@
+.auth-page-container {
+    height: 100%;
+
+    .auth-form-container {
+        width: 500px;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px 0 rgba(38, 50, 77, 0.14), 0 0 1px 0 rgba(38, 50, 77, 0.3);
+        background-color: #ffffff;
+        margin-bottom: 100px;
+
+        .auth-tab {
+            width: 250px;
+            height: 70px;
+            box-shadow: inset 1px -1px 0 0 #dfe2e5;
+            background-color: rgba(244, 245, 246, 0.5);
+            font-size: 18px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #939da7;
+            text-align: center;
+            padding-top: 5%;
+            cursor: pointer;
+            
+            &:first-child {
+                border-top-left-radius: 20px;
+            }
+
+            &:last-child {
+                border-top-right-radius: 20px;
+            }
+
+            &.active {
+                box-shadow: none;
+                background-color: #ffffff;
+                color: #313e59;
+            }
+        }
+
+    }
+
+    .push {
+        display: flex;
+        justify-content: center;
+        margin-top:-8vh;
+    }
+
+    .anora-row-head {
+        height: 40vh;
+    }
+
+}
+
+.signup-form .form-group {
+    margin-bottom: 7px;
+}
+
+.login-form .form-group {
+    margin-bottom: 15px;
+}
+
+.signup-form button.sign-in-up-btn {
+    margin-top: 0;
+}
+
+.forgot-pass-form button.sign-in-up-btn {
+    margin-top: 0;
+}
+
+.login-form, .signup-form, .forgot-pass-form {
+    padding: 50px 100px;
+
+    .form-text-input {
+        height: 46px;
+        border-radius: 6px;
+        border: solid 1px #e9ebed; 
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+
+        &::placeholder {
+            color: #939da7;
+        }
+    }
+
+    .sign-in-up-btn {
+        border-radius: 6px;
+        box-shadow: 0 4px 10px 0 rgba(38, 50, 77, 0.14);
+        background-color: #9adf55;
+        width: 100%;
+        height: 46px;
+        border: none;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        margin-top: 20px;
+        outline: none;
+        cursor: pointer;
+
+        &:active {
+            opacity: 0.7;
+        }
+    }
+
+    div[class*="col-"] {
+        padding: 0;
+    }
+
+    .horiz-line {
+        width: 62px;
+        border-bottom: 1px solid #c9ced3;
+        margin-top: 5px;
+        opacity: 0.5;
+    }
+
+    .sign-in-with {
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-align: center;
+        color: #939da7;
+    }
+
+    .forgot-password {
+        font-size: 10px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #939da7;
+        float: right;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+    .social-login-separator {
+        margin-top: 30px;
+        div[class*='col-']:last-child>.horiz-line {
+            float: right;
+        }
+    }
+
+    .social-login-container {
+        margin-top: 20px;
+
+        .fa-linkedin-in, .fa-google {
+            color: #ffffff;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .fa-linkedin-in {
+            font-size: 20px
+        }
+
+        .linkedin-btn {
+            height: 46px;
+            border-radius: 6px;
+            background-color: #0077b5;
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #ffffff;
+            width: calc(100% - 6px);
+            border: none;
+            outline: none;
+            cursor: pointer;
+            &:active {
+                opacity: 0.7;
+            }
+        }
+
+        .google-btn {
+            @extend .linkedin-btn;
+            background-color: #4285f4;
+            float: right;
+        }
+    }
+
+    /* The container */
+    .form-checkbox {
+        height: 20px;
+        width: 20px;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        font-size: 10px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        color: #939da7;
+        white-space: nowrap;
+        display: table-cell;
+        vertical-align: middle;
+        
+    }
+  
+    /* Hide the browser's default checkbox */
+    .form-checkbox input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    /* Create a custom checkbox */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        border-radius: 4px;
+        border: solid 1px #e9ebed;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    /* Show the checkmark when checked */
+    .form-checkbox input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    .form-checkbox .checkmark:after {
+        left: 7px;
+        top: 4px;
+        width: 5px;
+        height: 10px;
+        border: solid #9adf55;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+}
+
+.error {
+    border-color: #dc3545 !important;
+}
+
+.err-msg {
+    font-size: 12px;
+    color: #dc3545;
+}
+
+form.forgot-pass-form {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    position: relative;
+
+    .back-to-login {
+        @extend .forgot-password;
+        position: absolute;
+        top: 25px;
+        left: 30px;
+        font-size: 15px;
+    }
+}

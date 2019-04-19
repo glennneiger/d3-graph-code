@@ -1,0 +1,30 @@
+@import "./_variables.scss";
+.anora-page-landing {
+    // border: 1px solid red;
+    padding: 0;
+    // min-height: 100%;
+    height: 100%;
+    overflow-y: auto; 
+    // display: flex;
+    // width: 100%;
+    // height: 100%;
+    // max-height: 100%;
+    // border: 1px solid red;
+    // flex: 0 1 100%;
+    // flex-wrap: wrap;
+    // align-items: flex-start;
+    .container {
+        max-width: 750px;
+    }
+    margin: auto;
+    font-family: Arial;
+    h1, h2, h3 {
+        font-family: Arial;
+    }
+    .anora-body-text {
+        font-family: Arial;
+    }
+    // .full-width {
+    //     width: 100vw;
+    // }
+}

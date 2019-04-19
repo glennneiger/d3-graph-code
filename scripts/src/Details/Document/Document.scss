@@ -1,0 +1,22 @@
+.nova-document-container {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.nova-document-not-found-blur {
+  top: 0;
+  position: absolute;
+  background: rgba(255,255,255,0.8);
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.nova-document-not-found-blur-text {
+  font-size: 1.5em;
+  padding: 100px;
+  padding-top: 150px;
+  text-align: center;
+}

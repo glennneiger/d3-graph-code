@@ -1,0 +1,79 @@
+.nova-list-group-sub-item {
+  h6 {
+    border-bottom: 1px solid #dbdbdb;
+    opacity: 0.12;
+    padding-top: 8px;
+  }
+  width: 100%;
+}
+
+.nova-filters-left-right {
+  padding: 4px;
+  min-height: 50px;
+}
+
+.nova-filters-left-right-clearfix {
+  clear: both;
+}
+
+
+.nova-filters-label {
+  float: left;
+  padding-top: 6px;
+  padding-left: 15px;
+  opacity: 0.45;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.nova-filters-input-wrapper {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+
+.nova-filters-input {
+  min-width: 150px;
+  margin-right: 6px;
+}
+
+.nova-slider-handle-value {
+  position: relative;
+}
+
+.all-filters {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b9c1d1;
+  padding-left: 15px;
+  padding-top: 31px;
+}
+
+.filter-head {
+  display: flex;
+  margin-bottom: 15px;
+  div {
+    width: 50%;
+    .toggle-filter {
+      float: right;
+      opacity: 0.45;
+      font-size: 14px;
+      color: #ffffff;
+      margin-right: 10px;
+      margin-top: 5px;
+      cursor: pointer;
+    }
+  }
+}

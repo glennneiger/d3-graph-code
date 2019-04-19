@@ -1,0 +1,150 @@
+#profile-main .top-tabs .billing_contnet_main {
+    h2 {
+        border-bottom: 1px solid #ced4da;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 500;
+      color: #313e59;
+      padding-bottom: 10px;
+    }
+    .billing_content .billing_grid {
+      padding: 20px 0px;
+      border-bottom: 1px solid #ced4da;
+      position: relative;
+      .row{
+        margin-left: -15px;
+        margin-right:-15px;
+        .biling_left_side_col {
+            max-width: 13%;
+            flex: 0 0 13%;
+            h4 {
+                font-family: Roboto;
+                font-size: 14px;
+                color: #939da7;
+            }
+        }
+
+        .biling_right_side_col {
+            max-width: 87%;
+            flex: 0 0 87%;
+            .history_table {
+              .table {
+                > {
+                  tbody > tr > {
+                    td, th {
+                      padding: 15px 8px;
+                      border-top: none;
+                      border-bottom: 1px solid #ced4da;
+                    }
+                  }
+                  tfoot > tr > {
+                    td, th {
+                      padding: 15px 8px;
+                      border-top: none;
+                      border-bottom: 1px solid #ced4da;
+                    }
+                  }
+                  thead > tr > {
+                    td, th {
+                      padding: 15px 8px;
+                      border-top: none;
+                      border-bottom: 1px solid #ced4da;
+                    }
+                  }
+                  tbody > tr {
+                    > td {
+                      font-family: Roboto;
+                      font-size: 14px;
+                      color: #313e59;
+                    }
+                    &:last-child > td {
+                        border-bottom: none;
+                    }
+                  }
+                }
+                margin-bottom: 0;
+              }
+              tbody tr .view_pdf_link {
+                font-family: Roboto;
+                font-size: 14px;
+                color: #5856d6;
+              }
+            }
+            ul.visa_uline li {
+              img {
+                max-width: 28px;
+                margin-right: 10px;
+              }
+              color: #5e6d7c;
+              font-family: Roboto;
+              font-size: 14px;
+              font-weight: 500;
+              padding-right: 50px;
+            }
+            .biling_change_link {
+              font-family: Roboto;
+              font-size: 14px;
+              color: #5856d6;
+              padding-right: 8px;
+            }
+            .plan_content {
+              .trail_headline p {
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 500;
+                margin-bottom: 0;
+                color: #5e6d7c;
+              }
+              .trail_expire_date span {
+                font-family: Roboto;
+                font-size: 14px;
+                color: #939da7;
+                padding-right: 8px;
+              }
+              .plan_description {
+                border-radius: 8px;
+                background-color: #e9ebed;
+                margin-top: 10px;
+                padding: 10px;
+                .plan_p p {
+                  margin: 0;
+                  color: #5e6d7c;
+                  font-size: 14px;
+                }
+                ul.plan_uline li {
+                  color: #5e6d7c;
+                  padding-left: 0;
+                  a {
+                    border-radius: 6px;
+                    box-shadow: 0 2px 5px 0 rgba(38, 50, 77, 0.14);
+                    background-color: #9adf55;
+                    height: 38px;
+                    display: inline-block;
+                    line-height: 38px;
+                    padding: 0px 15px;
+                    color: #fff;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: bold;
+                  }
+                }
+              }
+            }
+        }
+
+      }
+      
+      .biling_right_side_col .history_table .table thead tr th {
+        padding-top: 0 !important;
+        opacity: 0.65;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 500;
+        color: #6f788b;
+        border-bottom: none;
+      }
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }

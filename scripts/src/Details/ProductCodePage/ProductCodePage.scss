@@ -1,0 +1,13 @@
+
+.inbox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#recall-vis-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+}

@@ -1,0 +1,16 @@
+.nova_description_table {
+  td, th {
+    border: 0;
+  }
+}
+.nova-text-view {
+  line-height: 200%;
+}
+.nova-text-view-inline {
+  dt, dd {
+    display: inline;
+  }
+  dt::after {
+    content: ": ";
+  }
+}

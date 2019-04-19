@@ -1,0 +1,27 @@
+// todo: fix this
+$main-color: rgb(1, 171, 221);
+
+.nova-property-grid {
+  h3 {
+    text-align: center;
+    font-weight: bold;
+  }
+  > div {
+    text-align: center;
+  }
+  dt {
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+  dd {
+    color: $main-color;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  hr {
+    border-top: 3px solid rgba(0, 0, 0, 0.3);
+    width: 50%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}

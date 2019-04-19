@@ -1,0 +1,27 @@
+
+.nova-header {
+  align-items: center;
+  color: white;
+  background-color: #313e59;
+  padding: 5px 0px;
+}
+
+.nova-header-logo {
+  @media (min-width: 576px){
+    width: 90%;
+  }
+  @media (max-width: 575px){
+    width: 40%;
+  }
+}
+
+.nova-header-logo-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  padding-left: 1rem;
+  @media (max-width: 575px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}

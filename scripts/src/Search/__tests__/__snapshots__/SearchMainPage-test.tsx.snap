@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="search-bar text-center col-12 col-sm-6 offset-sm-3"
+  >
+    <img
+      alt="Nova Approval Logo"
+      className="img-fluid"
+      src="test-file-stub"
+    />
+    <form
+      className="search-box"
+      onSubmit={[Function]}
+    >
+      <div
+        style={Object {}}
+      >
+        <div
+          className="input-group"
+        >
+          <input
+            aria-autocomplete="list"
+            aria-describedby="inputGroup-sizing-sm"
+            aria-expanded={false}
+            aria-label="Large"
+            autoComplete="off"
+            autoFocus={false}
+            className="form-control nova-input-search"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Search FDA Regulation..."
+            role="combobox"
+            type="text"
+            value=""
+          />
+          <div
+            className="input-group-append"
+          >
+            <button
+              className="btn"
+              type="submit"
+            >
+              <i
+                className="fas fa-search"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div
+      className="mt-4"
+    >
+      Enter keywords to find info about regulation numbers, product codes, or specific premarket applications.
+      <br />
+      Click on the help button in the bottom left of the page to learn more.
+    </div>
+  </div>
+  <div
+    className="text-center col-12 col-sm-6 offset-sm-3"
+  >
+    <p>
+      <b>
+        Some example searches to try:
+      </b>
+    </p>
+    <p>
+      "
+      pacemaker medtronic
+      "
+    </p>
+    <p>
+      "
+      K162550
+      "
+    </p>
+    <p>
+      "
+      cardiology regulation numbers
+      "
+    </p>
+  </div>
+</div>
+`;
